@@ -13,10 +13,10 @@ int main() {
     while (true) {
         // full-speed jump to 180°
         s.writeDegrees(180.0f);
-        wait_ms_blocking(800);  // give it time to arrive (tune for your linkage)
+        wait_ms_blocking(1800);  // give it time to arrive (tune for your linkage)
 
         // full-speed jump back to 0°
         s.writeDegrees(0.0f);
-        wait_ms_blocking(800);
+        wait_ms_blocking(1800);
     }
 }
